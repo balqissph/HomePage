@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.balqis.homepage"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.balqis.homepage"
