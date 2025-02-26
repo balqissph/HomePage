@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Login Berhasil!", Toast.LENGTH_SHORT).show()
 
                 val logTag = "Email"
-
                 if (logTag == "Email") {
                     Log.d(logTag, emailInput)
                 } else {
@@ -43,7 +42,6 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, HomeActivity::class.java)
                 intent.putExtra("email", emailInput)
                 startActivity(intent)
-
                 finish()
             }
         }
